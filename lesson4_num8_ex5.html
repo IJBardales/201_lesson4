@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lesson 4  Number 8 Exercise 3</title>
+  <style>
+    form {
+      border: 2px solid teal;
+    }
+    
+    #newstags {
+      padding-right: 30px;
+      font-weight: bold;
+      vertical-align: top;
+    }
+    
+    #submit {
+      background-color: #9ACD32;
+    }
+    
+    #reset {
+      background-color: #8FBC8F;
+    }
+    
+  </style>
+</head>
+<body>
+  <form action="" method="get">
+    <label for="news_category">News Article Category</label>
+      <select id="news_category" name="category_type">
+        <option value="core">Core</option>
+        <option value="plugins">Plugins & deletebraries</option>
+        <option value="conventions">Conventions</option>
+        <option value="reviews">Reviews</option>
+        <option value="opinion">Opinions</option>
+        <option value="people">People</option>
+      </select>  
+    <!-- Took the liberty of adding CSS to this section of the form -->  
+    <section>
+      <h2>Check Tags to Match Your News Article Category</h2>
+          <label for="news_tags" id="newstags">Article Tags</label>
+            <select id="news_tags" name="tag_names" multiple>
+              <option value="html"> HTML</option>
+              <option value="css"> CSS</option>
+              <option value="javascript"> Javascript</option>
+              <option value="ruby"> Ruby</option>
+              <option value="rails"> Rails</option>
+              <option value="python"> Python</option>
+              <option value="django"> Django</option>
+            </select>
+    </section>
+    <p>
+      <button type="submit" id="submit">Submit</button>
+      <button type="reset" id="reset">Reset</button>
+    </p>
+  </form>
+
+</body>
+</html>

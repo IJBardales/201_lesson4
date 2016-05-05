@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lesson 4  Number 8 Exercise 3</title>
+  <style>
+    li {
+    list-style-type: none;
+    }
+    
+    form {
+      border: 2px solid teal;
+    }
+  </style>
+</head>
+<body>
+  <form action="url.com" method="get">
+    <fieldset>
+      <legend>News Article Category</legend>
+        <ul>
+          <li>
+            <label for="cat1"><input type="radio" id="cat1" name="category_type" value="core" />Core</label>
+          </li>
+          <li>
+            <label for="cat2"><input type="radio" id="cat2" name="category_type" value="plugins" />Plugins & Libraries</label>
+          </li>
+          <li>
+            <label for="cat3"><input type="radio" id="cat3" name="category_type" value="conventions" />Conventions</label>
+          </li>
+          <li>
+            <label for="cat4"><input type="radio" id="cat4" name="category_type" value="reviews" />Reviews</label>
+          </li>
+          <li>
+            <label for="cat5"><input type="radio" id="cat5" name="category_type" value="opinion" />Opinions</label>
+          </li>
+          <li>
+            <label for="cat6"><input type="radio" id="cat6" name="category_type" value="people" />People</label>
+          </li>
+        </ul>
+    </fieldset>
+    <section>
+      <h2>Check Tags to Match Your News Article Category</h2>
+        <ul>
+          <li>
+            <label for="html_tag"><input type="checkbox" id="html_tag" value="html" /> HTML</label>
+          </li>
+          <li>
+            <label for="css_tag"><input type="checkbox" id="css_tag" value="css" /> CSS</label>
+          </li>
+          <li>
+            <label for="javascript_tag"><input type="checkbox" id="javascript_tag" value="javascript" /> Javascript</label>
+        </li>
+        <li>
+          <label for="ruby_tag"><input type="checkbox" id="ruby_tag" value="ruby" /> Ruby</label>
+        </li>
+        <li>
+          <label for="rails_tag"><input type="checkbox" id="rails_tag" value="rails" /> Rails</label>
+        </li>
+        <li>
+          <label for="python_tag"><input type="checkbox" id="python_tag" value="python" /> Python</label>
+        </li>
+        <li>
+          <label for="django_tag"><input type="checkbox" id="django_tag" value="django" /> Django</label>
+        </li>
+      </ul>
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </section>
+  </form>
+
+</body>
+</html>
